@@ -11,39 +11,46 @@
 </head>
 <body>
     <main>
-        <div class="passo ativo" id="passo-0">
+        <section class="passo ativo" id="passo-0" aria-labelledby="titulo-passo-0">
+            <h2 id="titulo-passo-0">Início da Aventura</h2>
             <p>Era mais um dia normal na vida de Peter Parker como Homem Aranha, até que ele vê duas explosões acontecendo cada uma em uma parte da cidade, na Time Square e no Queens!</p>
-            <button class="btn-proximo" data-proximo="1">Ir para a Time Square</button>
-            <button class="btn-proximo" data-proximo="2">Ir para o Queens</button>
-        </div>
+            <button class="btn-proximo" data-proximo="1" aria-label="Ir para a Time Square">Ir para a Time Square</button>
+            <button class="btn-proximo" data-proximo="2" aria-label="Ir para o Queens">Ir para o Queens</button>
+        </section>
 
-        <div class="passo" id="passo-1">
+        <section class="passo" id="passo-1" aria-labelledby="titulo-passo-1">
+            <h2 id="titulo-passo-1">Time Square</h2>
             <p>Ele vai para a Time Square, e encontra o vilão Mysterio!</p>
-            <button class="btn-proximo" data-proximo="3">Ir para cima dele, com uma voadora</button>
-            <button class="btn-proximo" data-proximo="4">Tentar conversar</button>
-        </div>
+            <button class="btn-proximo" data-proximo="3" aria-label="Ir para cima dele, com uma voadora">Ir para cima dele, com uma voadora</button>
+            <button class="btn-proximo" data-proximo="4" aria-label="Tentar conversar">Tentar conversar</button>
+        </section>
 
-        <div class="passo" id="passo-2">
-            <p>Ele vai pro Queens, e encontra o Duende Verde, Ele taca uma granada!</p>
-            <button class="btn-proximo" data-proximo="5">Desviar</button>
-            <button class="btn-proximo" data-proximo="6">Se defender com uma tampa de boeiro</button>
-        </div>
+        <section class="passo" id="passo-2" aria-labelledby="titulo-passo-2">
+            <h2 id="titulo-passo-2">Queens</h2>
+            <p>Ele vai pro Queens, e encontra o Duende Verde, que taca uma granada!</p>
+            <button class="btn-proximo" data-proximo="5" aria-label="Desviar">Desviar</button>
+            <button class="btn-proximo" data-proximo="6" aria-label="Se defender com uma tampa de boeiro">Se defender com uma tampa de boeiro</button>
+        </section>
 
-        <div class="passo" id="passo-3">
+        <section class="passo" id="passo-3" aria-labelledby="titulo-passo-3">
+            <h2 id="titulo-passo-3">Derrota</h2>
             <p>Ele é derrotado!</p>
-        </div>
+        </section>
 
-        <div class="passo" id="passo-4">
+        <section class="passo" id="passo-4" aria-labelledby="titulo-passo-4">
+            <h2 id="titulo-passo-4">Derrota</h2>
             <p>Ele dá uma surra no Homem Aranha.</p>
-        </div>
+        </section>
 
-        <div class="passo" id="passo-5">
-            <p>Ele desvia e se aproxima do Duende Verde e lhe dá um soco fatal, e ele é derrotado!</p>
-        </div>
+        <section class="passo" id="passo-5" aria-labelledby="titulo-passo-5">
+            <h2 id="titulo-passo-5">Vitória no Queens</h2>
+            <p>Ele desvia e se aproxima do Duende Verde, lhe dá um soco fatal, e ele é derrotado!</p>
+        </section>
 
-        <div class="passo" id="passo-6">
+        <section class="passo" id="passo-6" aria-labelledby="titulo-passo-6">
+            <h2 id="titulo-passo-6">Vitória no Queens</h2>
             <p>A granada ricocheteia e atinge o vilão, e ele é derrotado.</p>
-        </div>
+        </section>
     </main>
     <script src="script.js"></script>
 </body>
